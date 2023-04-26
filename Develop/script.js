@@ -25,3 +25,9 @@ $(function () {
 
 var today = dayjs();
 $('#currentDay').text(today.format('MMMM DD, YYYY, h:mm:ss a'));
+
+var taskInput =$('#task');
+
+
+
+
