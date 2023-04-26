@@ -23,19 +23,5 @@ $(function () {
   });
 
 
-
- var header = document.getElementById("currentDay");
- var time = document.getElementById("time");
- var userTask = document.getElementById("user-task");
- var saveBtn = document.getElementById(".saveBtn");
- var hour = document.getElementById("hourInput");
- var description = document.getElementById(".description");
-
- var objectStore = {};
-
- var currentHour = dayjs().format("HH");
-
- var today = dayjs();
- today.format("dddd", "MMMM");
- console.log(today);
- header.textContent = today;
+var today = dayjs();
+$('#currentDay').text(today.format('MMMM DD, YYYY, h:mm:ss a'));
