@@ -42,8 +42,8 @@ function savedTasks() {
         savedTasks();
         renderTasks();
     });
-    
-    
+
+
     init()
 
     function hourTracker() {
